@@ -255,7 +255,7 @@ const ResultField = styled.div`
   width: 80%;
   height: 500px;
   background-color: initial;
-  font-size: calc(2rem + 5vmax);
+  font-size: calc(0.6rem + 4vmax);
   font-weight: 100;
   letter-spacing: -2;
   color: ${props => props.theme.colors.primary};

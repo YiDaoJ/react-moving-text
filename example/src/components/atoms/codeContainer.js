@@ -25,7 +25,7 @@ const CodeContainer = ({
   timing="${timingFunction}"
   iteration="${iterationCount}"
   fillMode="${fillMode}">
-  AnimatedTypo
+  React-Moving-Text
 </MovingComponent>`.trim()
         }
 

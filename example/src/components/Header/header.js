@@ -17,12 +17,12 @@ const Header = () => {
         />
       </ForkRibbon>
       <StyledH1>
-        <StyledLink color="#1976d2" noTransition={true} to="/">
+        <StyledLink color="#1976d2" noTransition={true} to="/react-moving-text/">
           React-Moving-Text
         </StyledLink>
       </StyledH1>
       <StyledSubHeader>
-        A library for animated Typography built with React and CSS Animation.
+        A library for animated texts built with React and CSS Animation.
         <LinkGroupContainer>
           <StyledLink to="/react-moving-text/example" color="#0d47a1" margin="0px 30px">More Examples</StyledLink>
           <ExternalLink href="https://github.com/YiDaoJ/react-moving-text/blob/master/README.md" target="_blank" color="#0d47a1">Document</ExternalLink>
