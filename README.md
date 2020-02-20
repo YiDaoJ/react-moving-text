@@ -4,7 +4,7 @@ React Component to show animated text and objects, built with [styled-components
 
 The Component provides regular animation for common object and some animation effects especially for typography like letters and multi-line text.
 
-**View [Demo and Playground](https://yidaoj.github.io/react-moving-text/) **
+**View [Demo and Playground](https://yidaoj.github.io/react-moving-text/)**
 
 ## Installation
 
@@ -38,7 +38,7 @@ const MyAnimatedTypo = () => {
 }
 ```
 
-###Available properties
+### Available properties
 
 |  Property   | Corresponding Animation Property |     Data Type     | Default  Value | Property Unit |
 | :---------: | :------------------------------: | :---------------: | :------------: | :-----------: |
@@ -51,7 +51,7 @@ const MyAnimatedTypo = () => {
 | `fillMode`  |      `animation-fill-mode`       |     `String`      |     "none"     |       -       |
 |             |                                  |                   |                |               |
 
-###Available animations
+### Available animations
 
 | `type` / Animation name |
 | ----------------------- |
