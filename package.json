@@ -1,7 +1,7 @@
 {
   "name": "react-moving-text",
   "homepage": "https://yidaoj.github.io/react-moving-text",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "description": "",
   "main": "build/index.js",
   "scripts": {

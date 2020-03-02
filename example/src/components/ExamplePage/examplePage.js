@@ -10,10 +10,13 @@ import Modal from '../atoms/modal'
 const AnimationTypes = [
   "blur",
   "bounce",
+  "effect3D",
   "flash",
   "glowing",
   "jelly",
   "pulse",
+  "shadow",
+  "spin",
   "swing",
 
   "fadeIn",
@@ -27,7 +30,9 @@ const AnimationTypes = [
   "fadeOutToTop",
   "fadeOutToBottom",
 
-  "hang",
+  "fold",
+  "unfold",
+
   "hangOnLeft",
   "hangOnRight",
 
@@ -38,18 +43,34 @@ const AnimationTypes = [
   "squeezeHorizontal",
   "squeezeVertical",
 
-  "spin",
-  "spinSlowDown",
+  "flip",
+  "flipIn",
+  "flipOut",
   "flipSlowDown",
-
-  "flipCenterToRight",
+  "flipFromTop",
+  "flipToTop",
+  "flipFromBottom",
+  "flipToBottom",
   "flipFromLeftToCenter",
-  "flipHorizontal",
-  "flipHorizontal2",
-  "flipVertial",
-  "flipVertial2",
-  "slideInVertical",
-  "slideOutVertical"
+
+  "popIn",
+  "popOut",
+
+  "slideInFromLeft",
+  "slideInFromRight",
+  "slideOutToLeft",
+  "slideOutToRight",
+  "slideInFromTop",
+  "slideInFromBottom",
+  "slideOutToTop",
+  "slideOutToBottom",
+
+  "rotateSlowDown",
+  "rotateIn",
+  "rotateOut",
+
+  "zoomIn",
+  "zoomOut",
 ]
 
 const ExamplePage = ({}) => {

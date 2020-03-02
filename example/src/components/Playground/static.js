@@ -6,31 +6,44 @@ export const FillModeItems = ['none', 'forwards', 'backwards', 'both']
 export const AnimationTypes = [
   {
     label: "common",
-    options: ["blur",
-    "bounce",
-    "flash",
-    "glowing",
-    "jelly",
-    "pulse",
-    "swing"]
+    options: [
+      "blur",
+      "bounce",
+      "effect3D",
+      "flash",
+      "glowing",
+      "jelly",
+      "pulse",
+      "shadow",
+      "spin",
+      "swing"
+    ]
   },
   {
     label: "fade",
-    options:["fadeIn",
-    "fadeInFromLeft",
-    "fadeInFromRight",
-    "fadeInFromTop",
-    "fadeInFromBottom",
-    "fadeOut",
-    "fadeOutToLeft",
-    "fadeOutToRight",
-    "fadeOutToTop",
-    "fadeOutToBottom"]
+    options:[
+      "fadeIn",
+      "fadeInFromLeft",
+      "fadeInFromRight",
+      "fadeInFromTop",
+      "fadeInFromBottom",
+      "fadeOut",
+      "fadeOutToLeft",
+      "fadeOutToRight",
+      "fadeOutToTop",
+      "fadeOutToBottom"
+    ]
+  },
+  {
+    label: "fold",
+    options: [
+      "fold",
+      "unfold"
+    ]
   },
   {
     label: "hang",
     options: [
-      "hang",
       "hangOnLeft",
       "hangOnRight"
     ]
@@ -54,40 +67,36 @@ export const AnimationTypes = [
   {
     label:"flip",
     options:[
+      "flip",
+      "flipIn",
+      "flipOut",
+      "flipSlowDown",
       "flipFromTop",
       "flipToTop",
       "flipFromBottom",
       "flipToBottom",
-      "flipSlowDown",
-      "flipCenterToRight",
-      "flipFromLeftToCenter",
-      "flipHorizontal",
-      "flipHorizontal2",
-      "flipVertial",
-      "flipVertial2",
-      "flipIn",
-      "flipOut"
+      "flipFromLeftToCenter"
     ]
   },
   {
     label: "slide",
     options: [
-      "slideInVertical",
-      "slideOutVertical"
-    ]
-  },
-  {
-    label:"spin",
-    options:[
-      "spin",
-      "spinSlowDown",
+      "slideInFromLeft",
+      "slideInFromRight",
+      "slideOutToLeft",
+      "slideOutToRight",
+      "slideInFromTop",
+      "slideInFromBottom",
+      "slideOutToTop",
+      "slideOutToBottom"
     ]
   },
   {
     label:"rotate",
     options:[
-      "rotateIn",
-      "rotateOut",
+      "rotateSlowDown",
+      "rotateCW",
+      "rotateACW",
     ]
   },
   {
@@ -96,83 +105,12 @@ export const AnimationTypes = [
       "zoomIn",
       "zoomOut"
     ]
+  },
+  {
+    label:"pop",
+    options:[
+      "popIn",
+      "popOut"
+    ]
   }
-  // {
-  //   label:"",
-  //   options:[
-
-  //   ]
-  // }
 ]
-
-// const Animations = [
-//   {
-//     label: "common",
-//     options: ["blur",
-//     "bounce",
-//     "flash",
-//     "glowing",
-//     "jelly",
-//     "pulse",
-//     "swing"]
-//   },
-//   {
-//     label: "fade",
-//     options:["fadeIn",
-//     "fadeInFromLeft",
-//     "fadeInFromRight",
-//     "fadeInFromTop",
-//     "fadeInFromBottom",
-//     "fadeOut",
-//     "fadeOutToLeft",
-//     "fadeOutToRight",
-//     "fadeOutToTop",
-//     "fadeOutToBottom"]
-//   }，
-//   {
-//     label: "hang",
-//     options: [
-//       "hang",
-//       "hangOnLeft",
-//       "hangOnRight"
-//     ]
-//   },
-//   {
-//     label:"shake",
-//     options:[
-//       "shakeMix",
-//       "shakeHorizontal",
-//       "shakeVertical",
-//       "squeezeMix",
-//       "squeezeHorizontal",
-//       "squeezeVertical"
-//     ]
-//   },
-//   {
-//     label:"flip",
-//     options:[
-//       "flipSlowDown",
-//       "flipCenterToRight",
-//       "flipFromLeftToCenter",
-//       "flipHorizontal",
-//       "flipHorizontal2",
-//       "flipVertial",
-//       "flipVertial2",
-//       "slideInVertical",
-//       "slideOutVertical",
-//     ]
-//   },
-//   {
-//     label:"spin",
-//     options:[
-//       "spin",
-//       "spinSlowDown",
-//     ]
-//   },
-//   {
-//     label:"",
-//     options:[
-
-//     ]
-//   },
-// ]

@@ -18,9 +18,9 @@
     "prismjs": "^1.19.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-moving-text": "0.0.7",
     "react-pose": "^4.0.10",
     "react-router-dom": "^5.1.2",
-    "react-moving-text": "0.0.4",
     "styled-components": "^4.4.1",
     "webpack": "^4.41.4"
   },
