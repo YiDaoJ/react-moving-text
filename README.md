@@ -49,7 +49,6 @@ const MyAnimatedTypo = () => {
 |  `timing`   |   `animation-timing-function`    |     `String`      |     "ease"     |       -       |
 | `iteration` |   `animation-iteration-count`    | `Number` `String` |   "infinite"   |       -       |
 | `fillMode`  |      `animation-fill-mode`       |     `String`      |     "none"     |       -       |
-|             |                                  |                   |                |               |
 
 ### Available animations
 
