@@ -18,7 +18,7 @@ npm i react-moving-text
 
 To use react-moving-text in your react project, wrap the content with a `MovingText` component and customize the animation with relevant properties.
 
-```react
+```jsx
 import React from 'react'
 import MovingText from 'react-moving-text'
 
@@ -53,43 +53,44 @@ const MyAnimatedTypo = () => {
 
 ### Available animations
 
-| `type` / Animation name |
-| ----------------------- |
-| `blur`                  |
-| `fadeIn`                |
-| `fadeOut`               |
-| `hang`                  |
-| `hangOnLeft`            |
-| `hangOnRight`           |
-| `swing`                 |
-| `glowing`               |
-| `shakeMix`              |
-| `shakeHorizontal`       |
-| `shakeVertical`         |
-| `spin`                  |
-| `bounce`                |
-| `flipCenterToRight`     |
-| `flipFromLeftToCenter`  |
-| `flash`                 |
-| `pulse`                 |
-| `jelly`                 |
-| `squeezeHorizontal`     |
-| `squeezeVertical`       |
-| `flipHorizontal`        |
-| `flipVertical`          |
-|                         |
-|                         |
-|                         |
-|                         |
-|                         |
-|                         |
-|                         |
+- For entity object and letters
+
+  | Common effects | Fade             | Flip                 | Slide             |
+  | :------------- | :--------------- | :------------------- | :---------------- |
+  | blur           | fadeIn           | flip                 | slideInFromLeft   |
+  | bounce         | fadeInFromLeft   | flipIn               | slideInFromRight  |
+  | effect3D       | fadeInFromRight  | flipOut              | slideOutToLeft    |
+  | flash          | fadeInFromTop    | flipSlowDown         | slideOutToRight   |
+  | float          | fadeInFromBottom | flipFromTop          | slideInFromTop    |
+  | glowing        | fadeOut          | flipToTop            | slideInFromBottom |
+  | jelly          | fadeOutToLeft    | flipFromBottom       | slideOutToTop     |
+  | pulse          | fadeOutToRight   | flipToBottom         | slideOutToBottom  |
+  | shadow         | fadeOutToTop     | flipFromLeftToCenter |                   |
+  | spin           | fadeOutToBottom  |                      |                   |
+  | swing          |                  |                      |                   |
+
+  | Fold   | Hang        | Zoom    | Pop    |
+  | :----- | :---------- | :------ | :----- |
+  | fold   | hangOnLeft  | zoomIn  | popIn  |
+  | unfold | hangOnRight | zoomOut | popOut |
+
+  | Rotate         | Shake           | Squeeze           |
+  | -------------- | --------------- | ----------------- |
+  | rotateSlowDown | shakeMix        | squeezeMix        |
+  | rotateCW       | shakeHorizontal | squeezeHorizontal |
+  | rotateACW      | shakeVertical   | squeezeVertical   |
+
+
+- For multiline texts
+
+  - `typewriter`
+
 
 ## Chain Animation
 
 An string-arry of animation names is used to wrap the animations you want to chain.
 
-```react
+```jsx
 import React, { useState } from 'react'
 import MovingText from 'react-moving-text'
 
@@ -118,6 +119,3 @@ const AnimationChain = () => {
 }
 ```
 
-
-
-## License
